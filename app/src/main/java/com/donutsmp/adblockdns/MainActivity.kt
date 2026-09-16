@@ -9,6 +9,7 @@ import android.content.IntentFilter
 import android.net.VpnService
 import android.os.Build
 import android.os.Bundle
+import android.view.View
 import android.widget.TextView
 import androidx.activity.result.contract.ActivityResultContracts
 import androidx.appcompat.app.AppCompatActivity
@@ -18,7 +19,7 @@ import com.google.android.material.card.MaterialCardView
 
 class MainActivity : AppCompatActivity() {
 
-    private lateinit var statusDot: TextView
+    private lateinit var statusDot: View
     private lateinit var statusLabel: TextView
     private lateinit var hint: TextView
     private lateinit var toggle: MaterialButton
