@@ -1,11 +1,17 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <string name="app_name">AdBlock DNS</string>
-    <string name="subtitle">AdGuard DNS via local VPN</string>
-    <string name="start">Start DNS VPN</string>
-    <string name="stop">Stop DNS VPN</string>
-    <string name="status_on">On — system DNS is 94.140.14.14</string>
-    <string name="status_off">Off — using your network DNS</string>
-    <string name="status_denied">VPN permission denied</string>
-    <string name="disclaimer">This uses Android VpnService only to set DNS to AdGuard (94.140.14.14). It is not a full packet filter. It blocks domains AdGuard lists as ads/trackers. It will not reliably remove YouTube video ads.</string>
+    <string name="subtitle">AdGuard DNS over a local VPN</string>
+    <string name="dns_label">Resolver</string>
+    <string name="start">Start</string>
+    <string name="stop">Stop</string>
+    <string name="status_on">Active</string>
+    <string name="status_off">Idle</string>
+    <string name="status_denied">Permission denied</string>
+    <string name="status_error">Could not start</string>
+    <string name="hint_on">Queries go to 94.140.14.14. Domain ads and trackers on AdGuard’s list are blocked.</string>
+    <string name="hint_off">Tap Start and accept the Android VPN prompt. No traffic is sent to a remote VPN server.</string>
+    <string name="hint_denied">Android blocked the VPN. You can try again, or set Private DNS to dns.adguard-dns.com in system settings.</string>
+    <string name="notif_text">DNS %1$s</string>
+    <string name="disclaimer">Local VPN is only used to apply DNS. This is not a YouTube ad skipper. Ads served from the same hosts as the video still play.</string>
 </resources>
