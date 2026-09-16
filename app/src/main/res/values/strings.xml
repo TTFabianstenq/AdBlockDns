@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">AdBlock DNS</string>
+    <string name="subtitle">AdGuard DNS via local VPN</string>
+    <string name="start">Start DNS VPN</string>
+    <string name="stop">Stop DNS VPN</string>
+    <string name="status_on">On — system DNS is 94.140.14.14</string>
+    <string name="status_off">Off — using your network DNS</string>
+    <string name="status_denied">VPN permission denied</string>
+    <string name="disclaimer">This uses Android VpnService only to set DNS to AdGuard (94.140.14.14). It is not a full packet filter. It blocks domains AdGuard lists as ads/trackers. It will not reliably remove YouTube video ads.</string>
+</resources>
